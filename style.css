@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -28,4 +29,21 @@ section#celular iframe {
     width: 263px;
     top: 82px;
     height: 467px;
+}
+
+section#icones {
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%);
+}
+
+section#icones img {
+    border-radius: 50%;
+    height: 60px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+section#icones img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
 }
